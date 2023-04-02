@@ -1,6 +1,6 @@
 // Store API endpoint as queryUrl.
 var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
-var plateUrl = "https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json"
+var plateUrl = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json"
 
 // Create base layer
 var street = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -107,7 +107,7 @@ d3.json(queryUrl).then(function (data) {
     //Add tectonic plates 
     d3.json(plateUrl).then(function (plates) {
         L.geoJson(plates, {
-            color: "red",
+            color: "lightgreen",
             weight: "2.5"
         }).addTo(tectonicPlates);
         tectonicPlates.addTo(myMap);
