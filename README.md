@@ -1,2 +1,4 @@
 # leaflet-challenge
-Create earthquake visualization using Leaflet, Javascript, and HTML
+This project utilizes Javascript(Leaflet) and HTML to create a live dashboard visualizing earthquake data provided by the United States Geological Survey. 
+
+
