@@ -9,6 +9,7 @@ The earthquake data is sourced from the United States Geological Survey (https:/
 
 An image of the site is below:
 
-![image](https://user-images.githubusercontent.com/119253324/229390873-fc263a28-dd34-4975-b7de-d47ce1fe6f70.png)
+![image](https://user-images.githubusercontent.com/119253324/229391025-76536dd1-623f-4702-8ae4-4d6f44b0c0d5.png)
+
 
 
